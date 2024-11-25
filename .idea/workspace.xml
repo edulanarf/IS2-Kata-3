@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319186c5-4eb5-4948-89f9-a64a1fd9a5fe" name="Changes" comment="Creo la clase encargada de hacer el histograma">
+    <list default="true" id="319186c5-4eb5-4948-89f9-a64a1fd9a5fe" name="Changes" comment="Descargo el fichero tsv y configuro la clase Main. Programa finalizado">
       <change afterPath="$PROJECT_DIR$/title.basics.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Usuario/Desktop/Kata2 yo/Kata 2/src/main/java/ulpgc/es",
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732562584968</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Descargo el fichero tsv y configuro la clase Main. Programa finalizado">
+      <option name="closed" value="true" />
+      <created>1732562865787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732562865787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +139,7 @@
     <MESSAGE value="Creacion de las clases TitleDeserializer y TsvTitleDeserializer" />
     <MESSAGE value="Creo la clase TsvTitleReader" />
     <MESSAGE value="Creo la clase encargada de hacer el histograma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo la clase encargada de hacer el histograma" />
+    <MESSAGE value="Descargo el fichero tsv y configuro la clase Main. Programa finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Descargo el fichero tsv y configuro la clase Main. Programa finalizado" />
   </component>
 </project>

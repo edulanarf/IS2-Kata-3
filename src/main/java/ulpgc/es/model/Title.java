@@ -1,10 +1,10 @@
-package ulpgc.es;
+package ulpgc.es.model;
 
 import java.util.List;
 
 public record Title(
         String id,
-        ulpgc.es.Title.TitleType type,
+        Title.TitleType type,
         String primaryTitle,
         String originalTitle,
         List<Genre> genres

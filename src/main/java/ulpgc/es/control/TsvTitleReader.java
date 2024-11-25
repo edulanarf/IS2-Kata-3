@@ -1,4 +1,6 @@
-package ulpgc.es;
+package ulpgc.es.control;
+
+import ulpgc.es.model.Title;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TsvTitleReader implements TitleReader{
+public class TsvTitleReader implements TitleReader {
     private final File file;
     private final boolean hasHeader;
 

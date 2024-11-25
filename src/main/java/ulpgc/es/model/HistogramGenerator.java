@@ -1,4 +1,4 @@
-package ulpgc.es;
+package ulpgc.es.model;
 
 import java.util.HashMap;
 import java.util.List;

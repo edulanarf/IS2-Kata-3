@@ -1,5 +1,10 @@
 package ulpgc.es;
 
+import ulpgc.es.control.TitleReader;
+import ulpgc.es.control.TsvTitleReader;
+import ulpgc.es.model.HistogramGenerator;
+import ulpgc.es.model.Title;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
