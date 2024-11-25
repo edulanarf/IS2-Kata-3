@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319186c5-4eb5-4948-89f9-a64a1fd9a5fe" name="Changes" comment="Descargo el fichero tsv y configuro la clase Main. Programa finalizado">
-      <change afterPath="$PROJECT_DIR$/title.basics.tsv" afterDir="false" />
+    <list default="true" id="319186c5-4eb5-4948-89f9-a64a1fd9a5fe" name="Changes" comment="Creo las clases necesarias de la parte &quot;view&quot; de la aplicacion para poder mostrar el histograma en una ventana">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,39 +23,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "edulanarf"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;edulanarf&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/edulanarf/IS2-Kata-2.git",
+    "url": "https://github.com/edulanarf/IS2-Kata-3.git",
     "accountId": "0efaaf4b-fc24-4537-b527-cce4de97ee53"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pM2xX3z3v7KnjxJWnuv9tejN2C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Kata2 yo/Kata 2/src/main/java/ulpgc/es",
-    "onboarding.tips.debug.path": "C:/Users/Usuario/Desktop/Kata2 yo/Kata 2/src/main/java/ulpgc/es/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Kata2 yo/Kata 2/src/main/java/ulpgc/es&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Usuario/Desktop/Kata2 yo/Kata 2/src/main/java/ulpgc/es/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ulpgc.es" />
@@ -131,7 +131,47 @@
       <option name="project" value="LOCAL" />
       <updated>1732562865787</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aplico el MVC separando el codigo en 3 paquetes diferentes: model, view y control">
+      <option name="closed" value="true" />
+      <created>1732563351038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732563351038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Las clases Tsv se modifican para una mejor abstraccion">
+      <option name="closed" value="true" />
+      <created>1732563798421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732563798421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="La clase HistogramGenerator se sustituye por una interfaz de Histograma y una clase TitleTypeHistogram que implementa esta interfaz.&#10;La clase Title se modifica para mejorar la abstraccion">
+      <option name="closed" value="true" />
+      <created>1732564041476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732564041476</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Se añade la dependencia jfreechart al pom">
+      <option name="closed" value="true" />
+      <created>1732564114474</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732564114474</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creo las clases necesarias de la parte &quot;view&quot; de la aplicacion para poder mostrar el histograma en una ventana">
+      <option name="closed" value="true" />
+      <created>1732564304245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732564304245</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +180,11 @@
     <MESSAGE value="Creo la clase TsvTitleReader" />
     <MESSAGE value="Creo la clase encargada de hacer el histograma" />
     <MESSAGE value="Descargo el fichero tsv y configuro la clase Main. Programa finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Descargo el fichero tsv y configuro la clase Main. Programa finalizado" />
+    <MESSAGE value="Aplico el MVC separando el codigo en 3 paquetes diferentes: model, view y control" />
+    <MESSAGE value="Las clases Tsv se modifican para una mejor abstraccion" />
+    <MESSAGE value="La clase HistogramGenerator se sustituye por una interfaz de Histograma y una clase TitleTypeHistogram que implementa esta interfaz.&#10;La clase Title se modifica para mejorar la abstraccion" />
+    <MESSAGE value="Se añade la dependencia jfreechart al pom" />
+    <MESSAGE value="Creo las clases necesarias de la parte &quot;view&quot; de la aplicacion para poder mostrar el histograma en una ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo las clases necesarias de la parte &quot;view&quot; de la aplicacion para poder mostrar el histograma en una ventana" />
   </component>
 </project>
